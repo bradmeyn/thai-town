@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(imgs/more\ food.jpg);
+  background-position: top;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 80vh;
+}
+
+.main-heading-container {
+  border: solid 1px orange;
+  background-color: black;
+  position: absolute;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 39rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+
+.main-heading {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 5rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.main-heading-text {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  border-bottom: solid 1px orange;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border: 1px solid white;
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border: 1px solid white;
+  font-size: 1.5em;
+  list-style: none;
+  width: ;
+}
+
+.navbar__link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 1px solid red;
+  font-size: 1.5em;
+  list-style: none;
+  min-width: 8rem;
+}
+
+.navbar__link {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.navbar__link:hover {
+  color: orange;
+}
+
+.detail-section {
+}
+
+.details-section {
+  padding: 2rem 5rem;
+  background: slategray;
+  height: 10rem;
+  width: 100%;
+}
+
+.section-title {
+  font-size: 2rem;
+}
+
+.menu-section {
+  padding: 2rem 5rem;
+}
